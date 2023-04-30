@@ -1,5 +1,5 @@
-const menorValor = 2
-const maiorValor = 5
+const menorValor = 1
+const maiorValor = 1000
 
 function gerarNum(){
     return parseInt(Math.random() * ( (maiorValor+1) - menorValor ) + menorValor)
